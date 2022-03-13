@@ -1,7 +1,10 @@
-
+body{
+    font-family: 'Hubballi', cursive;
+}
 /* HEADER */
 #my-header{
     height: 70px;
+    font-family: 'Hubballi', cursive;
 }
 
 .my-input{
@@ -12,7 +15,8 @@
 
 /* MAIN */
 main{
-    background-color: rgb(0, 0, 117);
+    background-color: rgb(43, 43, 43);
+    font-family: 'Hubballi', cursive;
 }
 
 
@@ -40,11 +44,11 @@ main{
 /* boxs */
 
 .box{
-    border: 3 px solid purple;
+   
     width: calc(100% / 10);
     height: calc(100% / 10);
     background-color: orange;
-    border: 4px solid red;
+    border: 4px solid rgb(43, 43, 43);
     float: left;
     display: flex;
     justify-content: center;
@@ -53,22 +57,24 @@ main{
 }
 
 .box.clicked{
-    background-color: greenyellow;
-    border-color: white;
+    background-image: url("https://media.istockphoto.com/vectors/big-smile-emoticon-with-thumbs-up-vector-id1124532572?k=20&m=1124532572&s=612x612&w=0&h=IXpPDP4EXROUqjakNqxhq-pxrUURTO1jwy7SQKmP6Rw=");
+    background-size: cover;
+    border-color: rgb(43, 43, 43);
 }
 
 .box.clicked-bomb{
-    background-color: red;
-    border-color: black;
+    background-image: url("https://img.freepik.com/premium-vector/cartoon-bomb-vector_97886-2416.jpg?size=338&ext=jpg");
+    background-size: cover;
+    border-color:rgb(255, 0, 0);
 }
 
 /* ********* MEDIA ********* */
 .box-media{
-    border: 3 px solid purple;
+   
     width: calc(100% / 9);
     height: calc(100% / 9);
     background-color: orange;
-    border: 4px solid red;
+    border: 4px solid rgb(43, 43, 43);
     float: left;
     display: flex;
     justify-content: center;
@@ -80,11 +86,11 @@ main{
 /* **********DIFFICILE****** */
 
 .box-difficile{
-    border: 3 px solid purple;
+    
     width: calc(100% / 7);
     height: calc(100% / 7);
     background-color: orange;
-    border: 4px solid red;
+    border: 4px solid rgb(43, 43, 43);
     float: left;
     display: flex;
     justify-content: center;
