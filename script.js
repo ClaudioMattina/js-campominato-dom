@@ -96,14 +96,14 @@ buttonPlay.addEventListener("click", function() {
                  realSquare.addEventListener("click" , function(){
                  realSquare.classList.toggle("clicked");
                  point++
-                 writePoint("point", `il tuo punteggio è : ${point}`)
+                 writePoint("point", `Il tuo punteggio è : ${point}`)
                  
                 })
             }
             else{
                 realSquare.addEventListener("click" , function(){
                 realSquare.classList.toggle("clicked-bomb");
-                writePoint("point", `hai perso.. il tuo punteggio è : ${point}`)
+                writePoint("point", `Hai perso.. il tuo punteggio è : ${point}`)
                 point=0;
                 })
             }
@@ -173,13 +173,13 @@ buttonPlay.addEventListener("click", function() {
                 realSquare.addEventListener("click" , function(){
                 realSquare.classList.toggle("clicked");
                 point++
-                writePoint("point", `il tuo punteggio è : ${point}`)
+                writePoint("point", `Il tuo punteggio è : ${point}`)
                 })
             }
             else{
                 realSquare.addEventListener("click", function(){
                 realSquare.classList.toggle("clicked-bomb")
-                writePoint("point", `hai perso.. il tuo punteggio è : ${point}`)
+                writePoint("point", `Hai perso.. il tuo punteggio è : ${point}`)
                 point=0;
                 
                 })
